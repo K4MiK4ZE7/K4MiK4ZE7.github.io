@@ -1,0 +1,199 @@
+/*Classic Elements Start*/
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #f0f0f0;
+}
+
+html
+{
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    font-size: 10px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body
+{
+    font-size: 1.6rem;
+}
+
+main
+{
+    background-color: #f1e3dd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+header, footer
+{
+    font-family: 'Inter', sans-serif;
+    background-color: #667292;
+}
+
+section
+{
+    background-color: #8f9faf;
+    height: auto;
+    width: 50vw;
+}
+
+h2
+{
+    border-bottom: 0.2rem solid white;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    font-family: 'Inter', sans-serif;
+}
+
+/*Classic Elements End*/
+
+/*Header Start*/
+
+header ul.headerList
+{
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+header ul.languageList
+{
+    position: absolute;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+header ul li
+{
+    display: inline-block;
+    margin: 3rem;
+}
+
+li.nav-elements a
+{
+    text-decoration: none;
+    font-size: 1.7rem;
+}
+
+/*Header End*/
+
+/*About Start*/
+
+section.aboutContainer
+{
+    margin: 5rem auto;
+    padding: 3rem 5rem;
+    border-radius: 3rem;
+}
+
+section.aboutContainer div.aboutContent p
+{
+    font-size: 2rem;
+}
+
+/*About End*/
+
+/*Skills Start*/
+
+section.skillsContainer
+{
+    margin: 5rem auto;
+    padding: 3rem 5rem;
+    border-radius: 3rem;
+}
+
+ul.skills-list
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+li.skills-element
+{
+    display: inline-block;
+    margin: auto 5rem;
+    margin-top: 2rem;
+    font-size: 5rem;
+}
+
+img.vsİmg
+{
+    height: 5rem;
+    width: auto;
+}
+
+/*Skills End*/
+
+/*Devices Start*/
+
+section.devicesContainer
+{
+    margin: 5rem auto;
+    padding: 3rem 5rem;
+    border-radius: 3rem;
+}
+
+h4.devicesHead
+{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+/*Devices End*/
+
+/*Contact Start*/
+
+section.contactContainer
+{
+    margin: 5rem auto;
+    padding: 3rem 5rem;
+    border-radius: 3rem;
+}
+
+div.contactContent
+{
+    text-align: center;
+}
+
+/*Contact End*/
+
+/*Footer Start*/
+
+footer
+{
+    height: 8rem;   
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    justify-content: center;
+    text-align: center;
+}
+
+footer ul li i
+{
+   font-size: 3rem;
+}
+
+footer ul li
+{
+    display: inline-block;
+    margin: 0 1.5rem;
+}
+
+/*Footer End*/
