@@ -27,6 +27,7 @@ section.section-hero {
   flex-direction: column;
   width: 100vw;
   height: 100vh;
+  justify-content: center;
 }
 
 /*Header Start*/
@@ -59,7 +60,7 @@ img.section-hero__profile-photo {
   width: 3.5%;
   height: auto;
   border-radius: 50%;
-  display: block;
+  display: none;
 }
 
 /*Navigations Start*/
@@ -88,6 +89,23 @@ nav.navigation ul li a {
 /*Navigations End*/
 
 /*Header End*/
+
+div.hello-text {
+  height: 77rem;
+  display: flex;
+  width: 144.2rem;
+  background-color: #b7d8ff;
+  border-radius: 7.8rem;
+  align-self: center;
+  margin: auto 0;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.13);
+}
+
+img.hello-text__profile-picture{
+  width: ;
+  height: auto;
+  border-radius: 50%;
+}
 
 /*Welcome Page End*/
 
