@@ -101,9 +101,9 @@ div.hello-text {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.13);
 }
 
-img.hello-text__profile-picture{
-  width: ;
-  height: auto;
+img.hello-text__profile-photo {
+  width: 25.2%;
+  height: 25.2%;
   border-radius: 50%;
 }
 
