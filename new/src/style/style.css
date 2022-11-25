@@ -1,0 +1,110 @@
+/*Classic Elements Start*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #eee;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #eee;
+  height: 100%;
+  font-size: 1.6rem;
+}
+
+/*Classic Elements End*/
+
+/*Welcome Section Start*/
+
+section.section-hero {
+  display: flex;
+  background-color: #b7d8ff;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+/*Header Start*/
+
+header {
+  background-color: #b7d8ff;
+  width: 100%;
+  height: 8.5rem;
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+header.sticky {
+  position: fixed;
+  margin-top: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 8rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: rgba(255, 255, 255, 0.97);
+  z-index: 999;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+  animation: FadeInTop 0.2s ease-out;
+}
+
+img.section-hero__profile-photo {
+  width: 3.5%;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+}
+
+/*Navigations Start*/
+
+nav.navigation {
+  padding-right: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  width: 100vw;
+}
+
+nav.navigation ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+nav.navigation ul li a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #e9ecef;
+}
+
+/*Navigations End*/
+
+/*Header End*/
+
+/*Welcome Page End*/
+
+/*Main Start*/
+
+main {
+  background-color: #eee;
+}
+
+/*About Start*/
+
+main section.section-about {
+  height: 100vh;
+  width: 100vw;
+  background-color: #eee;
+}
+
+/*About End*/
+
+/*Main End*/
