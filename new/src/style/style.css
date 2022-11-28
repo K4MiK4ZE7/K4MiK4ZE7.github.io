@@ -99,12 +99,14 @@ div.hello-text {
   align-self: center;
   margin: auto 0;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.13);
+  
 }
 
-img.hello-text__profile-photo {
-  width: 50%;
-  height: auto;
+div.hello-text img.hello-text__profile-photo {
+  width: auto;
+  height: 60%;
   border-radius: 50%;
+  image-rendering: pixelated;
 }
 
 /*Welcome Page End*/
